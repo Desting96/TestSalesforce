@@ -1,11 +1,11 @@
 name: Workflow Deploy Salesforce
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
     paths:
             - 'force-app/**'
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
     paths:
             - 'force-app/**'         
 

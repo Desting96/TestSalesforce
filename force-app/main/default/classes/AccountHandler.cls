@@ -1,3 +1,10 @@
+/**
+ * @description       : 
+ * @author            : David Hurtado
+ * @group             : 
+ * @last modified on  : 09-30-2022
+ * @last modified by  : David Hurtado
+**/
 public class AccountHandler {
     public static Account insertNewAccount(String Name){
         try{
@@ -9,4 +16,5 @@ public class AccountHandler {
             return null;
         }
     }
+    //prueba
 }
